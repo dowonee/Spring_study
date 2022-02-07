@@ -1,0 +1,9 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+<p th:text="'hello ' + ${name}">hello! empty</p>
+<!--
+hello! empty 부분은 없어도 된다.
+템플릿 엔진으로서 동작을 하면 "'hello ' + ${name}" 이부분이 hello! empty 를 치환이 된다.
+-->
+</body>
+</html>
